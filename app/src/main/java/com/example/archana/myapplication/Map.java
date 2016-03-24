@@ -34,7 +34,7 @@ public class Map extends AppCompatActivity {
                 googleMap = ((MapFragment) getFragmentManager().
                         findFragmentById(R.id.map)).getMap();
             }
-            googleMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
+            googleMap.setMapType(GoogleMap.MAP_TYPE_NORMAL);
             Marker TP = googleMap.addMarker(new MarkerOptions().
                     position(TutorialsPoint).title("Compassites Software Solutions Pvt.Ltd"));
         }
